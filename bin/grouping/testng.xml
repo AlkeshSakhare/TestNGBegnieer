@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test">
+	<test name="testng">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="grouping.GroupOne" />
+			<class name="grouping.GroupTwo" />
+		</classes>
+	</test>
+</suite>
