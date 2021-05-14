@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="test" duration-ms="60" started-at="2021-05-14T19:16:16 IST" finished-at="2021-05-14T19:16:16 IST">
+  <suite name="Default suite" duration-ms="62" started-at="2021-05-14T19:28:38 IST" finished-at="2021-05-14T19:28:38 IST">
     <groups>
     </groups>
-    <test name="depends" duration-ms="60" started-at="2021-05-14T19:16:16 IST" finished-at="2021-05-14T19:16:16 IST">
-      <class name="parameterization.ParameterizationByXML">
-        <test-method status="PASS" signature="getBrowser(java.lang.String)[pri:0, instance:parameterization.ParameterizationByXML@1e6d1014]" name="getBrowser" duration-ms="11" started-at="2021-05-14T19:16:16 IST" finished-at="2021-05-14T19:16:16 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="62" started-at="2021-05-14T19:28:38 IST" finished-at="2021-05-14T19:28:38 IST">
+      <class name="invocationCount.InvocationCountDemo">
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:invocationCount.InvocationCountDemo@67205a84]" name="testCaseOne" duration-ms="7" started-at="2021-05-14T19:28:38 IST" finished-at="2021-05-14T19:28:38 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBrowser -->
-      </class> <!-- parameterization.ParameterizationByXML -->
-    </test> <!-- depends -->
-  </suite> <!-- test -->
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:invocationCount.InvocationCountDemo@67205a84]" name="testCaseOne" duration-ms="3" started-at="2021-05-14T19:28:38 IST" finished-at="2021-05-14T19:28:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:invocationCount.InvocationCountDemo@67205a84]" name="testCaseOne" duration-ms="2" started-at="2021-05-14T19:28:38 IST" finished-at="2021-05-14T19:28:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:invocationCount.InvocationCountDemo@67205a84]" name="testCaseOne" duration-ms="3" started-at="2021-05-14T19:28:38 IST" finished-at="2021-05-14T19:28:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:invocationCount.InvocationCountDemo@67205a84]" name="testCaseOne" duration-ms="1" started-at="2021-05-14T19:28:38 IST" finished-at="2021-05-14T19:28:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+      </class> <!-- invocationCount.InvocationCountDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

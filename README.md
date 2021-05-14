@@ -14,4 +14,6 @@ In this repo you will find all concept of TestNG as follows:
 
 6.Grouping test cases
 
+7.Invocation Count
+
 Link to install TestNG plugin:- https://github.com/cbeust/testng-eclipse
